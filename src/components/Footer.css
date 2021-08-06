@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.background{
+    background-color: black;
+    color: white;
+    font-family: 'Righteous', cursive;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
+.icon{
+    display: flex;
+    font-family: 'Righteous', cursive;
+    align-items: center;
+    width: 30%;
+   margin: 40px;
+   border-right: 2px white solid;
+}
+.icon h1{
+    margin-left: 40px;
+    font-size: 3rem;
+}
+.links{
+    font-family: 'Roboto';
+    width: 20%;
+   align-items: center;
+justify-content: center;
+margin: 3rem;
+border-right: 2px white solid;
+}
+.links ul{
+    list-style: none;
+    align-self: center;
+
+}
+.links ul li{
+    padding: 4px;
+}
+a{
+
+    color: white;
+    text-decoration: none;
+}
+.flexbox{
+    width: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.subcribtion{
+    width: 100%;
+    font-size: 1.3rem;
+}
+.subcribtion h1{
+align-self: center;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+.emailinput{
+width: 55%;
+padding: 13px;
+border-radius: 20px;
+border: none;
+font-size: 1rem;
+}
+.emailsubmit{
+    margin-left: 20px;
+    background-color: #ff3a3a;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 1.3rem;
+}
+.footerfoot{
+    display: flex;
+    justify-content: space-between;
+}
+.termsandcomdition{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.termsandcomdition li{
+    list-style: none;
+}
+.footerfoot h1{
+ font-size: 15px;
+ letter-spacing: 1px;
+ font-weight: 500;
+}

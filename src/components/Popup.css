@@ -1,0 +1,67 @@
+.popup {
+ 
+    display: flex;
+    margin: auto;
+    position: fixed;
+    top: 50px;
+    left: 10%;
+    width: 80%;
+    border-radius: 50px;
+}
+.popup::before{
+    content: '';
+   
+}
+.popdetail{
+    background-color: white;
+    pointer-events: none;
+    z-index: 6;
+    padding: 30px;
+    width: 50%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.popimage{
+    z-index: 6;
+    width: 50%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: max-content;
+    background-color: rgba(255, 255, 255, 0);
+}
+.popimage img{
+    width: 125%;
+    height: 100%;
+}
+.fa-times-circle{
+    color: black;
+}
+.info{
+    z-index: 6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+  pointer-events: all;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.719);
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+.popdetail .tag{
+margin-left: 15px;
+}
+.tt{
+    color: black;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.tt:hover{
+    color: white;
+    background-color: #ff3a3a;
+}

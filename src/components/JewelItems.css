@@ -1,0 +1,93 @@
+
+.Ragoon{
+    width: 100%;
+    background-image: url(../Image-6.svg);
+    background-size: cover;
+    height: 246px;
+}
+.BB{
+    width: 100%;
+    background-image: url(../Image-5.svg);
+    background-size: cover;
+    height: 246px;
+}
+.Crystal{
+    width: 100%;
+    background-image: url(../Image-4.svg);
+    background-size: cover;
+    height: 246px;
+}
+.Tital{
+    width: 100%;
+    background-image: url(../Image-3.svg);
+    background-size: cover;
+    height: 246px;
+}
+.Quenn{
+    width: 100%;
+    background-image: url(../Image-2.svg);
+    background-size: cover;
+    height: 246px;
+}
+.Hnath{
+    width: 100%;
+    background-image: url(../Image-7.svg);
+    background-size: cover;
+    height: 246px;
+}
+.Rose{
+    width: 100%;
+    background-image: url(../Image-1.svg);
+    background-size: cover;
+    height: 246px;
+}
+.Stone{
+    width: 100%;
+    background-image: url(../Image.svg);
+    background-size: cover;
+    height: 246px;
+}
+.Pewel{
+    width: 100%;
+    background-image: url(../Image-8.svg);
+    background-size: cover;
+    height: 246px;
+}
+.jewel{
+    
+    margin: 1%;
+    width: 30%;
+}
+.tophalf {
+    height: 50%;
+
+}
+.bottomhalf h1{
+    margin: 0;
+}
+.bottomhalf h2{
+    margin: 0;
+}
+.tag{
+    display: flex;
+ 
+}
+.tagname{
+    margin-left: 13px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.tagname h5{
+    padding: 3px;
+    margin: 0%;
+}
+.tagname:hover{
+    background-color: #ff3a3a;
+    color: white;
+}
+.jewel:hover{
+    transform: scale(1.1);
+}
